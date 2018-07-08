@@ -1,10 +1,11 @@
 
 def reverse_each_word(sentence)
   hey = sentence.split(" , ")
+  yo = []
   hey.collect do |x|
-    hey << x.reverse
+    yo << x.reverse
   end 
-  return hey.join
+  return yo.join
 end
 
 
