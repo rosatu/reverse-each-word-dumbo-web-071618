@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
     hey << x.reverse
   end 
   return hey.join
- end
+end
 
 
