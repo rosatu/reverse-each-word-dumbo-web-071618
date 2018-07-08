@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   hey.collect do |x|
     yo << x.reverse
   end 
-  return yo.join
+  return yo.join(" ")
 end
 
 
